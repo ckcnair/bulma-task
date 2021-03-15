@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    </head>
+    <body>
+        <section class="hero is-primary">
+            <div class="hero-body">
+                <div class="container is-fluid">
+                    <h1 class="title is-4">
+                        Contact Form
+                    </h1>
+                    <h2 class="subtitle is-6">
+                        Fill it up with your details
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container  is-fluid">
+                <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Purchase</a></li>
+                        <li class="is-active"><a href="#" aria-current="page">Sign Up</a></li>
+                    </ul>
+                </nav>
+                <div class="columns">
+                    <div class="column">
+                        <p class="subtitle">
+                            <strong>Your Details</strong>
+                        </p>
+                        <hr class="navbar-divider">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://trello-attachments.s3.amazonaws.com/5ae08d0db409057039d1e17c/5ae08d0db409057039d1e181/cf2eefa341ccb4fc88a79164b2776a58/jhon-meew.jpg"
+                                         alt="Placeholder image">
+                                </figure>
+                            </div>              
+                            <div class="card-content">     
+                                <p class="title is-4 card-header-title is-centered">
+                                    John Meew
+                                </p>
+                                <div class="content has-text-centered has-text-grey-light">                  
+                                    <span>Premium member</span>
+                                    <p class="subtitle is-6">john@mail.com</p>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-footer-item">
+                                    <span>
+                                        <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                                    </span>
+                                </p>
+                                <p class="card-footer-item">
+                                    <span>
+                                        <a href="#">Facebook</a>
+                                    </span>
+                                </p>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p class="subtitle">
+                            <strong>Sign-up form</strong>
+                        </p>
+                        <hr class="navbar-divider">
+                        <div class="field is-horizontal">
+                            <div class="field-body">
+                                <div class="field">
+                                    <label class="label">Name</label>
+                                    <p class="control has-icons-left">
+                                        <input class="input" type="text" placeholder="Your name">
+                                        <span class="icon is-small is-left">
+                                            <svg class="svg-inline--fa fa-user fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 0c88.366 0 160 71.634 160 160s-71.634 160-160 160S96 248.366 96 160 167.634 0 256 0zm183.283 333.821l-71.313-17.828c-74.923 53.89-165.738 41.864-223.94 0l-71.313 17.828C29.981 344.505 0 382.903 0 426.955V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48v-37.045c0-44.052-29.981-82.45-72.717-93.134z"></path></svg><!-- <i class="fas fa-user"></i> -->
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="field">
+                                    <label class="label">Sur Name</label>
+                                    <p class="control has-icons-left has-icons-right">
+                                        <input class="input" type="email" placeholder="Your surname">                                
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control">
+                                    <p class="control has-icons-left">
+                                        <input class="input" type="text" placeholder="Your email">
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Password</label>
+                            <div class="control">
+                                <p class="control has-icons-left">
+                                    <input class="input" type="password" placeholder="Your password">
+                                    <span class="icon is-small is-left">
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-lock"></i>
+                                        </span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Membership</label>
+                            <div class="control">
+                                <div class="select">
+                                    <select>
+                                        <option>Select a package</option>
+                                        <option>With options</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Address</label>
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Your address"></textarea>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <label class="radio">
+                                    <input type="radio" name="answer">
+                                    Male
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="answer">
+                                    Female
+                                </label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    I agree to the <a href="#">terms and conditions</a>
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-link is-fullwidth">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="navbar-divider">
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                    is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
